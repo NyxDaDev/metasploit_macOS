@@ -19,7 +19,7 @@ echo 'msfdb_init () {
 cd /opt/metasploit-framework/bin #msfdb dir
 ./msfdb init' >> ~/.profile
 echo '} #msfdb alias
-#####################################' >> ~/.profile 
+' >> ~/.profile 
 
 echo "Adding msfconsole alias"
 echo ""
@@ -29,7 +29,7 @@ echo 'msfconsole () {
 cd /opt/metasploit-framework/bin #msfconsole dir
 ./msfconsole' >> ~/.profile
 echo '} #msfconsole alias
-#####################################' >> ~/.profile
+' >> ~/.profile
 
 echo "Now restart Terminal.app please, and start the graphical installation of Metasploit, to start executing the msfconsole command or better to run the included application."
 echo ""
